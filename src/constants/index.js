@@ -25,7 +25,13 @@ import {
     threejs,
     uic,
     stem,
-    yatra
+    yatra,
+    python,
+    c,
+    cpp,
+    AI,
+    ML,
+    firebase
   } from "../assets";
   
   export const navLinks = [
@@ -68,24 +74,24 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C",
+      icon: c,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Firebase",
+      icon: firebase,
     },
     {
       name: "Tailwind CSS",
@@ -96,8 +102,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Three JS",
@@ -108,12 +114,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "AI",
+      icon: AI,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "ML",
+      icon: ML,
     },
   ];
   

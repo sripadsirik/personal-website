@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import AI from "./tech/AI.png";
+import ML from "./tech/ML.png";
+import firebase from "./tech/firebase.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -64,5 +70,11 @@ export {
   tripguide,
   uic,
   stem,
-  yatra
+  yatra,
+  python,
+  c,
+  cpp,
+  AI,
+  ML,
+  firebase
 };
