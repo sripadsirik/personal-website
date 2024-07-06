@@ -50,11 +50,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AI/ML Practitioner",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cloud Practitioner",
       icon: creator,
     },
   ];
