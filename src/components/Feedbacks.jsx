@@ -17,7 +17,7 @@ const Feedbacks = () => {
         </motion.div>
         {/* PDF Display */}
         <iframe
-          src="../public/Sripad Sirikonda Resume 3.pdf"
+          src="./Sripad Sirikonda Resume 3.pdf"
           width="100%"
           height="1110px"
           style={{border: 'none'}}
