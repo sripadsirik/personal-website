@@ -1,0 +1,11 @@
+Model Information:
+* title:	McLaren Senna
+* source:	https://sketchfab.com/3d-models/mclaren-senna-8739ae69d41f41a3bb8f334d4ea08d3b
+* author:	WARENTERTAINMENT™ (https://sketchfab.com/WarEntertainment)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "McLaren Senna" (https://sketchfab.com/3d-models/mclaren-senna-8739ae69d41f41a3bb8f334d4ea08d3b) by WARENTERTAINMENT™ (https://sketchfab.com/WarEntertainment) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
