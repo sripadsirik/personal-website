@@ -31,7 +31,11 @@ import {
     cpp,
     AI,
     ML,
-    firebase
+    firebase,
+    saranam,
+    spark,
+    stock,
+    traffic
   } from "../assets";
   
   export const navLinks = [
@@ -194,58 +198,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Chicago Saranam Yatra Mobile App (in progress)",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Using React-Native, Node.js, and Firebase, I am creating a front end login/registration page, a calendar to schedule appointments, and a page to see the said appointments and used Firestore database for data fetching/retrieval. The app is still in pre-production and in progress as more logic and elements need to be implemented",
       tags: [
         {
-          name: "react",
+          name: "react-native",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
@@ -253,8 +215,79 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: saranam,
+      source_code_link: "https://github.com/sripadsirik/saranam-app",
+    },
+    {
+      name: "Traffic Congestion Model Predictor (in progress)",
+      description:
+        "The problem is optimizing traffic and navigation by predicting real-time traffic conditions to provide the best routes. Collected historical and real-time traffic data, including weather conditions, to train a machine learning model. This model predicts traffic flow based on current conditions. Still developing a backend server using Flask that processes user inputs, uses the trained model to predict traffic flow, and returns the results via an API",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restful api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: traffic,
+      source_code_link: "https://github.com/sripadsirik/traffic-project",
+    },
+    {
+      name: "Stock-Predictor",
+      description:
+        "Having a 94% accuracy rate, the project used the yfinance library to download historical stock data for NVIDIA (ticker symbol 'NVDA') from January 1, 2020, to June 16, 2024. It then splits the data into training and testing sets, uses a GridSearchCV on a GradientBoostingRegressor to find the best hyperparameters, and evaluates the model's performance using mean squared error. Lastly, it attempts to predict the stock price for a future date matplotlib with added hover functionality for detailed inspection",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tensorflow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "keras",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stock,
+      source_code_link: "https://github.com/sripadsirik/Python-Stock-predictor1",
+    },
+    {
+      name: "SpaceRIDE (Carpooling Web App)",
+      description:
+        "Led a team of 5 and created a web-app in 24 hours, used JSON to take user input and exchange between pages; utilizes a search engine to search for rides, and HTML and CSS for front-end. Later used Google Maps API, ReactJS, Firebase",
+      tags: [
+        {
+          name: "html/css/javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "reactjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "json",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "google maps api",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: spark,
+      source_code_link: "https://github.com/sripadsirik/spark_commute",
     },
   ];
   

@@ -38,6 +38,10 @@ import yatra from "./company/yatra.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import saranam from "./saranam.png";
+import spark from "./spark.png";
+import stock from "./stock.png";
+import traffic from "./traffic.png";
 
 export {
   logo,
@@ -76,5 +80,9 @@ export {
   cpp,
   AI,
   ML,
-  firebase
+  firebase,
+  saranam,
+  stock,
+  spark,
+  traffic
 };
