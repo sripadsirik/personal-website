@@ -26,6 +26,7 @@ import cpp from "./tech/cpp.png";
 import AI from "./tech/AI.png";
 import ML from "./tech/ML.png";
 import firebase from "./tech/firebase.png";
+import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -84,5 +85,6 @@ export {
   saranam,
   stock,
   spark,
-  traffic
+  traffic,
+  java
 };

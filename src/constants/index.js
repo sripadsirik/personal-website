@@ -35,7 +35,8 @@ import {
     saranam,
     spark,
     stock,
-    traffic
+    traffic,
+    java
   } from "../assets";
   
   export const navLinks = [
@@ -124,6 +125,10 @@ import {
     {
       name: "ML",
       icon: ML,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
   ];
   
