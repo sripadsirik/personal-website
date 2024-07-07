@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 //template_czkdqev
 //service_42qn5by
@@ -49,7 +51,12 @@ const Contact = () => {
         className="flex-[.72] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact...</h3>
+        <h3 className={styles.sectionHeadText}>Contact...<a href="https://www.linkedin.com/in/sripad-sirikonda-cs" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ marginLeft: '10px' }} />
+        </a>
+        <a href="https://github.com/sripadsirik" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginLeft: '5px' }} />
+        </a></h3>
 
         <form
           ref={formRef}

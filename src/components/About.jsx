@@ -5,6 +5,8 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import {SectionWrapper} from '../hoc';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ServiceCard = ({ index, title, icon }) =>{
   return(
@@ -34,7 +36,15 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview...</h2>
+        <h2 className={styles.sectionHeadText}>
+          Overview... 
+          <a href="https://www.linkedin.com/in/sripad-sirikonda-cs" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ marginLeft: '10px' }} />
+          </a>
+          <a href="https://github.com/sripadsirik" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginLeft: '5px' }} />
+          </a>
+        </h2>
       </motion.div>
 
       <motion.p

@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Hero = () => {
   return (
@@ -15,7 +17,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Sripad</span>
+            Hi, I'm <span className='text-[#915EFF]'>Sripad<span style={{ position: 'relative', zIndex: 2 }}>
+              <a href="https://www.linkedin.com/in/sripad-sirikonda-cs" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ marginLeft: '10px' }} />
+              </a>
+              <a href="https://github.com/sripadsirik" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginLeft: '5px' }} />
+              </a>
+            </span></span>
+            
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           AI/ML Models for Water Infrastructure Optimization Intern | <br className='sm:block hidden' />
