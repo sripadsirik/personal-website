@@ -8,6 +8,18 @@ import {SectionWrapper} from '../hoc';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
+import meImage1 from '../assets/me.JPG';
+import meImage2 from '../assets/me1.JPG';
+import meImage3 from '../assets/me2.jpg';
+import meImage4 from '../assets/me3.jpg';
+import meImage5 from '../assets/me4.JPG';
+import meImage6 from '../assets/me5.JPEG';
+import meImage7 from '../assets/me6.JPG';
+
+
+// Then use the imported images in your images array
+const images = [meImage1, meImage2, meImage3, meImage4, meImage5, meImage6, meImage7];
+
 const ServiceCard = ({ index, title, icon }) =>{
   return(
     <Tilt className="xs:w-[250px] w-full">
@@ -31,6 +43,55 @@ const ServiceCard = ({ index, title, icon }) =>{
   )
 }
 
+// const imageContainerStyle = {
+//   width: '300px', // Set the width of the crop
+//   height: '300px', // Set the height of the crop
+//   backgroundPosition: 'center', // Center the image within the div
+//   backgroundSize: 'cover', // Cover the div area, cropping the image as needed
+//   backgroundImage: `url(${meImage})`, // Use the image as the background
+//   borderRadius: '10px', // Optional: if you want rounded corners
+// };
+
+// const getImageContainerStyle = () => {
+//   const baseStyle = {
+//     backgroundPosition: 'center',
+//     backgroundSize: 'cover',
+//     backgroundImage: `url(${meImage})`,
+//     borderRadius: '10px',
+//   };
+
+//   // Adjust size for small devices
+//   if (window.innerWidth < 600) {
+//     return {
+//       ...baseStyle,
+//       width: '200px', // Smaller width for small devices
+//       height: '200px', // Smaller height for small devices
+//     };
+//   }
+
+//   // Default size for larger devices
+//   return {
+//     ...baseStyle,
+//     width: '300px',
+//     height: '300px',
+//   };
+// };
+
+const imageContainerStyle = {
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'space-around',
+  gap: '10px',
+};
+
+const imageStyle = {
+  width: '250px', // Adjust based on your layout needs
+  height: '250px', // Adjust based on your layout needs
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  borderRadius: '10px',
+};
+
 const About = () => {
   return (
     <>
@@ -45,6 +106,17 @@ const About = () => {
             <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginLeft: '5px' }} />
           </a>
         </h2>
+        {/* <div style={imageContainerStyle} alt="Sripad"></div> */}
+        <div style={imageContainerStyle}>
+          {images.map((meImage, index) => (
+            <div
+              key={index}
+              style={{ ...imageStyle, backgroundImage: `url(${meImage})` }}
+              role="img"
+              aria-label={`Sripad ${index + 1}`}
+            ></div>
+          ))}
+        </div>
       </motion.div>
 
       <motion.p
