@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sci-Fi Ferrari F40
+* source:	https://sketchfab.com/3d-models/sci-fi-ferrari-f40-fa08618500f440d2829c87dbbc4056fb
+* author:	eryk_a (https://sketchfab.com/eryk_a)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sci-Fi Ferrari F40" (https://sketchfab.com/3d-models/sci-fi-ferrari-f40-fa08618500f440d2829c87dbbc4056fb) by eryk_a (https://sketchfab.com/eryk_a) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

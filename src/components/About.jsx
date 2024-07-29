@@ -123,7 +123,7 @@ const About = () => {
         variants={fadeIn("", "", .1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a junior at the University of Illinois Chicago, majoring in Computer Science with a 3.81 GPA. My interests lie in machine learning, AI, and software development, and I have hands-on experience in developing AI/ML models for water optimizing systems. I enjoy collaborating on innovative projects and have a passion for teaching and mentoring in the field of coding. Additionally, I have developed several mobile and web applications, showcasing my ability to create practical and impactful software solutions.
+        I am a junior at the University of Illinois Chicago, majoring in Computer Science. My interests lie in machine learning, AI, and software development, and I have hands-on experience in developing AI/ML models for water optimizing systems. I enjoy collaborating on innovative projects and have a passion for teaching and mentoring in the field of coding. Additionally, I have developed several mobile and web applications, showcasing my ability to create practical and impactful software solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
