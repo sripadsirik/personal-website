@@ -52,11 +52,11 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact...<a href="https://www.linkedin.com/in/sripad-sirikonda-cs" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ marginLeft: '10px', color: 'red' }} />
-                </a>
-                <a href="https://github.com/sripadsirik" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginLeft: '5px', color: 'red' }} />
-                </a></h3>
+            <FontAwesomeIcon icon={faLinkedin} size="1x" style={{ marginLeft: '10px' }} />
+          </a>
+          <a href="https://github.com/sripadsirik" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="1x" style={{ marginLeft: '5px' }} />
+          </a></h3>
 
         <form
           ref={formRef}

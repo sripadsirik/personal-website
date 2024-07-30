@@ -9,7 +9,7 @@ const Hero = () => {
     <section
       className={`relative w-full h-screen mx-auto`}
       style={{
-        backgroundImage: 'url(./src/assets/maybe.webp)',
+        backgroundImage: 'url(./src/assets/maybe.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
