@@ -24,6 +24,28 @@ const Navbar = () => {
             }
           }
 
+          @keyframes slideIn {
+            from {
+              width: 0;
+              opacity: 0;
+            }
+            to {
+              width: 100%;
+              opacity: 1;
+            }
+          }
+
+          @keyframes slideOut {
+            from {
+              width: 100%;
+              opacity: 1;
+            }
+            to {
+              width: 0;
+              opacity: 0;
+            }
+          }
+
           .navbar-animated {
             background: linear-gradient(270deg, #ff0000, #00008b, #ff0000, #6a0dad);
             background-size: 600% 600%;
