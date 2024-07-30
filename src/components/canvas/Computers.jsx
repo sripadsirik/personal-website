@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = () => {
-  const { scene, error } = useGLTF("./car/scene.gltf");
+  const { scene, error } = useGLTF("./la_night_city/scene.gltf");
 
   if (error) {
     console.error("Error loading GLTF model:", error);
@@ -26,8 +26,8 @@ const Computers = () => {
 
       <primitive
         object={scene}
-        scale={1}
-        position={[0, -1, 0]}
+        scale={.25}
+        position={[0, -1.4, 0]}
       />
     </mesh>
   );
