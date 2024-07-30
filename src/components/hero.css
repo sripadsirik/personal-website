@@ -1,0 +1,7 @@
+/* Add this to your CSS file */
+.hero-background1 {
+    background-image: url('/maybe1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
