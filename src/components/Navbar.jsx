@@ -11,7 +11,6 @@ const Navbar = () => {
     <>
       <style>
         {`
-
           @keyframes purpleRedAnimation {
             0% {
               background-position: 0% 50%;
@@ -66,6 +65,12 @@ const Navbar = () => {
             transform: translateY(-2px); /* Slightly lift the box for 3D effect */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for 3D effect */
           }
+
+          .nav-item.active {
+            background-color: blue; /* Blue background */
+            color: white; /* White text */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for 3D effect */
+          }
         `}
       </style>
       <nav
@@ -87,9 +92,7 @@ const Navbar = () => {
             {navLinks.map((link) => (
               <li
                 key={link.id}
-                className={`nav-item ${
-                  active === link.title ? "text-black" : "text-white"
-                } text-[18px] font-bold cursor-pointer p-2`}
+                className={`nav-item ${active === link.title ? "active" : ""} text-[18px] font-bold cursor-pointer p-2`}
                 onClick={() => setActive(link.title)}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
