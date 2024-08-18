@@ -36,7 +36,9 @@ import {
     spark,
     stock,
     traffic,
-    java
+    java,
+    headstarter,
+    tracker,
   } from "../assets";
   
   export const navLinks = [
@@ -154,10 +156,10 @@ import {
       iconBg: "#383E56",
       date: "Jan 2024 - Present",
       points: [
-        "Using React-Native, Node.js, and Firebase, I am creating a front end login/registration page, a calendar to schedule appointments, and a page to see the said appointments and used Firestore database for data fetching/retrieval. The app is still in pre-production and in progress as more logic and elements need to be implemented",
-        "Developing a scheduling app for Swamis to manage poojas, accommodating over 100 user registrations in the first month",
-        "Created a front-end login/registration page, scheduling calendar, and appointment viewer with React-Native, with an expected completion rate of 70% and ongoing development",
-        "Implemented a back-end applying Node.js and Firebase to handle user inputs for the login/registration page, and synthesized Firestore to manage scheduling data, ensuring real-time synchronization on the calendar",
+        "Developed a scheduling app for Swamis to manage poojas, targeting 400+ user registrations within the first month and supporting up to 1,000 users simultaneously.",
+        "Created a front-end login/registration page, scheduling calendar, and appointment viewer using React Native, achieving an expected completion rate of 70% and enabling the management of over 300 appointments monthly.",
+        "Engineered a calendar feature for scheduling appointments, designed to handle up to 600 appointments per month, ensuring seamless performance with a 99.9% uptime rate.",
+        "Implemented a back-end using Node.js and Firebase to handle user inputs for the login/registration page, and synthesized Firestore to manage scheduling data, ensuring real-time synchronization on the calendar and improving data access speeds by 50%.",
       ],
     },
     {
@@ -167,9 +169,23 @@ import {
       iconBg: "#999999",
       date: "Jun 2024 - Present",
       points: [
-        "Collected, cleaned, and preprocessed diverse datasets from sources such as sensor networks and public databases, ensuring data integrity and preparing it for analysis, resulting in a 25% reduction in data processing time ",
-        "Constructed, trained, and validated multiple machine learning models, including decision trees and neural networks, achieving an accuracy improvement of up to 15% in predictive performance compared to baseline models",
-        "Applied machine learning models to optimize water infrastructure systems, effectively improving operational efficiency by 20% and reducing resource wastage by 10%",
+        "Developed and implemented advanced machine learning and Bayesian optimization models to enhance water infrastructure, boosting operational efficiency by 35% and reducing resource wastage by 15%. ",
+        "Collected, cleaned, and preprocessed extensive datasets from sensor networks and public databases, ensuring data integrity and reducing data processing time by 30%.",
+        "Conducted contamination detection simulations using WNTR and Bayesian optimization, improving detection speed by 40% and enhancing predictive accuracy by 25%.",
+        "Preparing to publish an article detailing the implementation and impact of Bayesian surrogate models in optimizing water infrastructure systems.",
+      ],
+    },
+    {
+      title: "Software Engineer Fellowship/Internship",
+      company_name: "Headstarter AI",
+      icon: headstarter,
+      iconBg: "#999999",
+      date: "Jul 2024 - Present",
+      points: [
+        "Built and deployed 5+ AI applications and APIs using NextJS, OpenAI, Pinecone, and StripeAPI, achieving 98% accuracy and positively impacting over 1000 users by enhancing user experience and engagement. ",
+        "Led the end-to-end development of projects, from design to deployment, by managing a team of 4+ engineering fellows, implementing MVC design patterns, and ensuring high code quality and maintainability.",
+        "Received coaching and mentorship from industry experts at Amazon, Bloomberg, and Capital One, focusing on best practices in Agile methodologies, CI/CD pipelines, Git workflows, and microservice architecture, significantly improving team efficiency and project delivery timelines.",
+        "Implemented robust testing and monitoring frameworks, conducting over 200 automated tests and continuous performance monitoring, which reduced post-deployment issues by 30%, ensuring a 99.9% uptime and swift issue resolution within 24 hours.",
       ],
     },
   ];
@@ -247,6 +263,27 @@ import {
       ],
       image: traffic,
       source_code_link: "https://github.com/sripadsirik/traffic-project",
+    },
+    {
+      name: "Pantry Tracker",
+      description:
+        "This Pantry Tracker application leverages modern web technologies, including Next.js, Firebase, and TensorFlow.js, to help users manage their pantry inventory by allowing them to add, categorize, and track items with real-time updates. The app features an integrated image classification system that automatically categorizes pantry items based on captured images, with the ability to manually override classifications when necessary. Additionally, users can explore recipe suggestions based on their current pantry contents, making meal planning more efficient and personalized",
+      tags: [
+        {
+          name: "react js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tracker,
+      source_code_link: "https://github.com/sripadsirik/Pantry-Tracker",
     },
     {
       name: "Stock-Predictor",

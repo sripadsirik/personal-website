@@ -35,6 +35,7 @@ import tesla from "./company/tesla.png";
 import uic from "./company/uic.png";
 import stem from "./company/stem.png";
 import yatra from "./company/yatra.png";
+import headstarter from "./headstarter.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -43,6 +44,7 @@ import saranam from "./saranam.png";
 import spark from "./spark.png";
 import stock from "./stock.png";
 import traffic from "./traffic.png";
+import tracker from "./Pantry-Tracker.png";
 
 export {
   logo,
@@ -86,5 +88,7 @@ export {
   stock,
   spark,
   traffic,
-  java
+  java,
+  headstarter,
+  tracker,
 };
