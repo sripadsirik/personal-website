@@ -39,6 +39,8 @@ import {
     java,
     headstarter,
     tracker,
+    bounce,
+    seismic,
   } from "../assets";
   
   export const navLinks = [
@@ -191,37 +193,79 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
     {
-      name: "Chicago Saranam Yatra Mobile App (in progress)",
+      name: "bouncE",
       description:
-        "Using React-Native, Node.js, and Firebase, I am creating a front end login/registration page, a calendar to schedule appointments, and a page to see the said appointments and used Firestore database for data fetching/retrieval. The app is still in pre-production and in progress as more logic and elements need to be implemented",
+        "Developed an interactive paper trading platform with AI-driven insights, real-time market data, and educational content, leading to a 2nd place win at SparkHacks 2025, trading simulations for 100+ users",
+      tags: [
+        {
+          name: "react js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RestAPIs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bounce,
+      source_code_link: "https://github.com/sripadsirik/bouncE",
+    },
+    {
+      name: "NASA Planetary Seismic Event Detector",
+      description:
+        "Developed a project as part of NASA Space Apps; identified seismic events from Apollo and Mars InSight data, improving detection accuracy by 30% and reducing data transmission volume by 70%",
+      tags: [
+        {
+          name: "PostgreSQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "STA/LTA Algorithm",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: seismic,
+      source_code_link: "https://github.com/Zaydo123/Seismic-Detection",
+    },
+    {
+      name: "Chicago Saranam Yatra Mobile App",
+      description:
+        "Using React-Native, Node.js, and Firebase, I am creating a front end login/registration page, a calendar to schedule appointments, and a page to see the said appointments and used Firestore database for data fetching/retrieval. The app is in production in the App-Store but more logic and elements need to be implemented",
       tags: [
         {
           name: "react-native",

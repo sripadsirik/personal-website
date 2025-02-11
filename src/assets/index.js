@@ -45,6 +45,8 @@ import spark from "./spark.png";
 import stock from "./stock.png";
 import traffic from "./traffic.png";
 import tracker from "./Pantry-Tracker.png";
+import bounce from "./bounce.png";
+import seismic from "./seismic.png";
 
 export {
   logo,
@@ -91,4 +93,6 @@ export {
   java,
   headstarter,
   tracker,
+  bounce,
+  seismic,
 };
