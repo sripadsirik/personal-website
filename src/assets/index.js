@@ -36,6 +36,7 @@ import uic from "./company/uic.png";
 import stem from "./company/stem.png";
 import yatra from "./company/yatra.png";
 import headstarter from "./headstarter.png";
+import fep from "./company/fep.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -95,4 +96,5 @@ export {
   tracker,
   bounce,
   seismic,
+  fep,
 };
